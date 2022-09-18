@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../images/somos_egg_school.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+nav {
+  background-color: #ffff;
+}
+.container-fluid a {
+  font-size: 18px;
+}
+.wp:hover,
+.fb:hover,
+.ig:hover {
+  display: inline-block;
+  animation: bounce;
+  animation-duration: 0.8s;
+}
+
+.fa-whatsapp {
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 80px;
+  background-color: #25d366;
+  color: white;
+  box-shadow: 5px 5px 6px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 6px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 6px -2px rgba(0, 0, 0, 0.75);
+}
+
+.fa-facebook-square {
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 80px;
+  color: white;
+  background-color: #4267b2;
+  box-shadow: 5px 5px 6px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 6px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 6px -2px rgba(0, 0, 0, 0.75);
+}
+.fa-instagram {
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 80px;
+  color: white;
+  background: radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 20% -50%,
+      #5258cf,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      ellipse farthest-corner at 60% -20%,
+      #893dc2,
+      transparent 50%
+    ),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec66d 100%
+    );
+  box-shadow: 5px 5px 6px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 6px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 6px -2px rgba(0, 0, 0, 0.75);
+}
+
+a {
+  text-decoration: none;
+}
+
+.pp {
+  transform: translate(60px);
+}
+
+#carouselExampleInterval {
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
