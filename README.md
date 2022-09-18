@@ -1,6 +1,6 @@
 <h2> Landing Page Egg Cooperation</h2>
 
-![](./gifs/README.gif)
+![Gif example](./gifs/README.gif)
 
 ## Este sitio está construido con:
 
